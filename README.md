@@ -1,6 +1,7 @@
 # InstructDS
 EMNLP 2023: Instructive Dialogue Summarization with Query Aggregations
 
+python=3.10
 
 1. Name replaced version of DialogSum
 
