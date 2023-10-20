@@ -1,7 +1,7 @@
 # InstructDS
 This is the repo for **[EMNLP 2023: Instructive Dialogue Summarization with Query Aggregations](https://arxiv.org/abs/2310.10981)**
 
-<img src="content/framework.png" width="500">
+<img src="content/framework.png" width="700">
 
 
 ## Requirements
@@ -16,38 +16,45 @@ pip install -r requirements.txt
 The main contributions:
 1. Release of Data
    1. SAMSum
-   2. SAMSum_QDS (ours)
-   3. DialogSum (ours with name replacement)
-   4. DialogSum_QDS (ours)
+   2. SAMSum_QDS (Ours)
+   3. DialogSum (Ours with name replacement)
+   4. DialogSum_QDS (Ours)
    5. TODSum
-   6. TODSum_QDS (ours)
+   6. TODSum_QDS (Ours)
    7. DREAM
 
 
 2. Traned Model
    1. Our model is trained from Flan-T5-XL.
-   2. The model is uploaded and accessible from [HuggingFace](https://huggingface.co/binwang/InstructDS/blob/main/README.md).
+   2. The model is uploaded and accessible from [InstructDS](https://huggingface.co/binwang/InstructDS/blob/main/README.md).
 
 
 3. Demo of Instruvtive Summarization
    ```
    bash demo.sh
+   # A100 GPU with 40G memory: Pass
+   # A5000 GPU with 24G memory: Pass
    ```
-   GPU with 24G memory (recommended)
 
-4. Demo of Summarization
+4. Demo Page (You can run locally.)
 
-    [YouTube Video]() (coming soon)
+   <img src="content/demo_figure.png" width="700">
 
-<img src="content/example.png" width="500">
+
+   Fore more information, please refer to [Slides for Demo](content/demo_slides.pdf), [Paper](https://arxiv.org/abs/2310.10981), and [Poster](content/poster.pdf).
+
+
+<img src="content/example.png" width="400">
 
 
 ### Citation
 ```
-@inproceedings{instructds,
-  title={Instructive Dialogue Summarization with Query Aggregations},
-  author={Anonymous},
-  booktitle={EMNLP},
-  year={2023}
+@misc{wang2023instructive,
+      title={Instructive Dialogue Summarization with Query Aggregations}, 
+      author={Bin Wang and Zhengyuan Liu and Nancy F. Chen},
+      year={2023},
+      eprint={2310.10981},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
 }
 ```
