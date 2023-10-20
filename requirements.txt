@@ -1,0 +1,6 @@
+fire
+gradio
+torch
+transformers
+sentencepiece
+accelerate
