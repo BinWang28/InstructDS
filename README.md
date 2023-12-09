@@ -13,8 +13,6 @@ pip install -r requirements.txt
 ```
 
 
-
-
 The main contributions:
 1. Release of Data
    1. SAMSum
@@ -49,7 +47,7 @@ The main contributions:
 <img src="content/example.png" width="400">
 
 
-### Citation
+## Citation
 ```
 @inproceedings{wang-etal-2023-instructive,
     title = "Instructive Dialogue Summarization with Query Aggregations",
