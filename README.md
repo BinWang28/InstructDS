@@ -1,6 +1,8 @@
 # InstructDS
 This is the repo for **[EMNLP 2023: Instructive Dialogue Summarization with Query Aggregations](https://arxiv.org/abs/2310.10981)**
 
+This repo is for `demo` only. The training and evaluation are located: [InstructDS_train](https://github.com/BinWang28/InstructDS_train)
+
 <img src="content/framework.png" width="700">
 
 
