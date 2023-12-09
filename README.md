@@ -3,6 +3,12 @@ This is the repo for **[EMNLP 2023: Instructive Dialogue Summarization with Quer
 
 This repo is for `demo` only. The training and evaluation are located: [InstructDS_train](https://github.com/BinWang28/InstructDS_train)
 
+
+
+<p align="center">
+  <img src="content/dialogue_summarization.png" width="250">
+</p>
+
 <img src="content/framework.png" width="700">
 
 
