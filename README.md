@@ -47,14 +47,16 @@ The main contributions:
 
 4. Demo Page (You can run locally.)
 
+  <p align="center">
    <img src="content/demo_figure.png" width="700">
+  </p>
 
 
    Fore more information, please refer to [Slides for Demo](content/demo_slides.pdf), [Paper](https://arxiv.org/abs/2310.10981), and [Poster](content/poster.pdf).
 
-
+<p align="center">
 <img src="content/example.png" width="400">
-
+</p>
 
 ## Citation
 ```
