@@ -22,9 +22,9 @@ python 3.10
 pip install -r requirements.txt
 ```
 
+## Main Contributions
 
-The main contributions:
-1. Release of Data
+1. Data
    1. SAMSum
    2. SAMSum_QDS (Ours)
    3. DialogSum (Ours with name replacement)
