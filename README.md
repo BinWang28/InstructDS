@@ -9,8 +9,11 @@ This repo is for `demo` only. The training and evaluation are located: [Instruct
   <img src="content/dialogue_summarization.png" width="250">
 </p>
 
-<img src="content/framework.png" width="700">
+# Framework
 
+<p align="center">
+<img src="content/framework.png" width="700">
+</p>
 
 ## Requirements
 Python = 3.10 (tested)
