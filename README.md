@@ -16,7 +16,8 @@ This part is for `demo`. The training and evaluation part can be found at: [Inst
 </p>
 
 ## Requirements
-Python = 3.10 (tested)
+python 3.10
+
 ```
 pip install -r requirements.txt
 ```
