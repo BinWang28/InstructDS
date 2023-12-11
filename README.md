@@ -2,7 +2,7 @@
 
 This is the repo for **[EMNLP 2023 Dialogue Summarization Work](https://arxiv.org/abs/2310.10981)**
 
-This part is for `demo`. The training and evaluation part can be found at: [InstructDS Train](https://github.com/BinWang28/InstructDS_train)
+This part is for `demo`. The training and evaluation part can be found at: [InstructDS Train](https://github.com/BinWang28/InstructDS_Train)
 
 
 <p align="center">
