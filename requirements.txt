@@ -4,3 +4,4 @@ torch
 transformers
 sentencepiece
 accelerate
+datasets

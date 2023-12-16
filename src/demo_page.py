@@ -20,6 +20,7 @@ import gradio as gr
 import torch
 from transformers import GenerationConfig, T5Tokenizer, T5ForConditionalGeneration
 
+from datasets import load_dataset
 
 
 
@@ -32,13 +33,18 @@ def main(
     all_data_samples = []
     datasets = ['SAMSum', 'SAMSum_QDS','DialogSum','DialogSum_QDS', 'TODSum', 'TODSum_QDS', 'DREAM']
     for dataset in datasets:
-        with open('data/{}/test.json'.format(dataset), 'r') as f:
-            data = json.load(f)
-            all_data_samples.append(data)
+        data_in_dataset_class = load_dataset('binwang/InstructDS_datasets', dataset, split='test')
+        data = [sample for sample in data_in_dataset_class]
+        all_data_samples.append(data)
+
+        #with open('data/{}/test.json'.format(dataset), 'r') as f:
+        #    data = json.load(f)
+        #    all_data_samples.append(data)
+        #data2 = load_dataset('binwang/InstructDS_datasets', dataset, split='test')
 
     # Load model
-    tokenizer = T5Tokenizer.from_pretrained(model_path, cache_dir="cache")
-    model     = T5ForConditionalGeneration.from_pretrained(model_path, device_map="auto", cache_dir='cache', torch_dtype=torch.float16)
+    tokenizer = T5Tokenizer.from_pretrained(model_path)
+    model     = T5ForConditionalGeneration.from_pretrained(model_path, device_map="auto", torch_dtype=torch.float16)
     model.eval()
     if torch.__version__ >= "2" and sys.platform != "win32":
         model = torch.compile(model)
