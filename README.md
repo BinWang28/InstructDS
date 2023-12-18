@@ -9,6 +9,8 @@
 [\[**Paper**\]](https://arxiv.org/abs/2310.10981), 
 [\[**Training and Evaluation Code**\]](https://github.com/BinWang28/InstructDS_Train), 
 [\[**Poster**\]](content/poster.pdf), 
+[\[**Dataset**\]](https://huggingface.co/datasets/binwang/InstructDS_datasets)
+
 
 
 Dialogue summarization framework described in the paper [Instructive Dialogue Summarization with Query Aggregations](https://arxiv.org/abs/2310.10981) (EMNLP 2023). This part is for `demo`. The training and evaluation part can be found from above **Training and Evaluation Code** link.
