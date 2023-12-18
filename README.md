@@ -10,16 +10,12 @@
 [\[**Training and Evaluation Code**\]](https://binwang28.github.io/InstructDS/), 
 [\[**Poster**\]](content/poster.pdf), 
 
+
+Dialogue summarization framework described in the paper [Instructive Dialogue Summarization with Query Aggregations](https://arxiv.org/abs/2310.10981) (EMNLP 2023). This part is for `demo`. The training and evaluation part can be found at: [InstructDS Train](https://github.com/BinWang28/InstructDS_Train)
+
 [\[**Demo Code**\]](https://github.com/BinWang28/InstructDS), 
 [\[**Demo Slides**\]](content/demo_slides.pdf), 
 [\[**Demo Video**\]](https://youtu.be/4QX6Z3Z4Zqo)
-
-
-
-Dialogue summarization framework described in the paper [Instructive Dialogue Summarization with Query Aggregations](https://arxiv.org/abs/2310.10981) (EMNLP 2023).
-
-This part is for `demo`. The training and evaluation part can be found at: [InstructDS Train](https://github.com/BinWang28/InstructDS_Train)
-
 
 
 <p align="center">
