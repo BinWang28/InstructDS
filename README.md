@@ -1,8 +1,25 @@
 # InstructDS: Instructive Dialogue Summarization with Query Aggregations
 
-This is the repo for **[EMNLP 2023 Dialogue Summarization Work](https://arxiv.org/abs/2310.10981)**
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-red.svg)](#python)
+[![arxiv](https://img.shields.io/badge/arXiv-2310.10981-b31b1b.svg)](https://arxiv.org/abs/2310.10981)
+[![ACL](https://img.shields.io/badge/ACL-Anthology-b38d1b.svg)](https://aclanthology.org/2023.emnlp-main.474/)
+
+
+[\[**EMNLP 2023 Slides**\]](content/EMNLP2023-InstructDS.pdf), 
+[\[**Paper**\]](https://arxiv.org/abs/2310.10981), 
+[\[**Training and Evaluation Code**\]](https://binwang28.github.io/InstructDS/), 
+[\[**Poster**\]](content/poster.pdf), 
+
+[\[**Demo Code**\]](https://github.com/BinWang28/InstructDS), 
+[\[**Demo Slides**\]](content/demo_slides.pdf), 
+[\[**Demo Video**\]](https://youtu.be/4QX6Z3Z4Zqo)
+
+
+
+Dialogue summarization framework described in the paper [Instructive Dialogue Summarization with Query Aggregations](https://arxiv.org/abs/2310.10981) (EMNLP 2023).
 
 This part is for `demo`. The training and evaluation part can be found at: [InstructDS Train](https://github.com/BinWang28/InstructDS_Train)
+
 
 
 <p align="center">
