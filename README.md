@@ -7,7 +7,7 @@
 
 [\[**EMNLP 2023 Slides**\]](content/EMNLP2023-InstructDS.pdf), 
 [\[**Paper**\]](https://arxiv.org/abs/2310.10981), 
-[\[**Training and Evaluation Code**\]](https://binwang28.github.io/InstructDS/), 
+[\[**Training and Evaluation Code**\]](https://github.com/BinWang28/InstructDS_Train), 
 [\[**Poster**\]](content/poster.pdf), 
 
 
@@ -15,7 +15,6 @@ Dialogue summarization framework described in the paper [Instructive Dialogue Su
 
 [\[**Demo Code**\]](https://github.com/BinWang28/InstructDS), 
 [\[**Demo Slides**\]](content/demo_slides.pdf), 
-[\[**Demo Video**\]](https://youtu.be/4QX6Z3Z4Zqo)
 
 
 <p align="center">
